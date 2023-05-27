@@ -59,6 +59,12 @@ const config = {
             label: 'Tutorial',
           },
           {
+            type: 'docSidebar',
+            sidebarId: 'stdSidebar',
+            position: 'left',
+            label: 'STD',
+          },
+          {
             href: 'https://github.com/golang/go',
             label: 'GitHub',
             position: 'right',

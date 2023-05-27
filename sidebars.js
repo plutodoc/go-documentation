@@ -8,6 +8,28 @@ const sidebars = {
       label: 'Intro',
     },
   ],
+  stdSidebar: [
+    {
+      type: 'category',
+      label: 'archive',
+      link: {
+        type: 'generated-index',
+        title: 'archive',
+      },
+      items: [
+        {
+          type: 'doc',
+          id: 'std/archive/tar',
+          label: 'tar',
+        },
+        {
+          type: 'doc',
+          id: 'std/archive/zip',
+          label: 'zip',
+        },
+      ],
+    },
+  ]
 };
 
 module.exports = sidebars;
