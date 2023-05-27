@@ -7,6 +7,31 @@ const sidebars = {
       id: 'intro',
       label: 'Intro',
     },
+    {
+      type: 'category',
+      label: 'Basics',
+      link: {
+        type: 'generated-index',
+        title: 'Basics',
+      },
+      items: [
+        {
+          type: 'doc',
+          id: 'basics/packages',
+          label: 'Packages',
+        },
+        {
+          type: 'doc',
+          id: 'basics/imports',
+          label: 'Imports',
+        },
+        {
+          type: 'doc',
+          id: 'basics/exported-names',
+          label: 'Exported names',
+        },
+      ],
+    },
   ],
   stdSidebar: [
     {
