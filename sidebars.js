@@ -29,6 +29,21 @@ const sidebars = {
         },
       ],
     },
+    {
+      type: 'doc',
+      id: 'std/bufio',
+      label: 'bufio',
+    },
+    {
+      type: 'doc',
+      id: 'std/builtin',
+      label: 'builtin',
+    },
+    {
+      type: 'doc',
+      id: 'std/bytes',
+      label: 'bytes',
+    },
   ]
 };
 
