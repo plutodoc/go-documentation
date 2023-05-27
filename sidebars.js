@@ -30,6 +30,16 @@ const sidebars = {
           id: 'basics/exported-names',
           label: 'Exported names',
         },
+        {
+          type: 'doc',
+          id: 'basics/functions',
+          label: 'Functions',
+        },
+        {
+          type: 'doc',
+          id: 'basics/functions-continued',
+          label: 'Functions continued',
+        },
       ],
     },
   ],
